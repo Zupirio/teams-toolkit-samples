@@ -15,7 +15,7 @@ services:
     environment:
       - SSL_CRT_FILE=/app/.fx/certificate/localhost.crt
       - SSL_KEY_FILE=/app/.fx/certificate/localhost.key
-      - REACT_APP_FUNC_ENDPOINT=http://localhost:7071
+      - VITE_FUNC_ENDPOINT=http://localhost:7071
       - WATCHPACK_POLLING=true # Enable hot reload
   api:
     build:
